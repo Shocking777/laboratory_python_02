@@ -1,9 +1,20 @@
 from datetime import datetime
+from typing import Any
 
 from .errors import InvalidEventError, InvalidTimestampError
 
+Event = dict[str, Any]
 
-def validate_event(event):
+def validate_event(event: Event) -> None:
+    """
+    Проверяет обязательные поля и значения одного события.
+
+    Args:
+        event: Словарь одного события.
+
+    Returns:
+        None.
+    """
     if not isinstance(event, dict):
         raise InvalidEventError("Событие должно быть словарём")
 

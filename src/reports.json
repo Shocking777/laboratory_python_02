@@ -1,0 +1,18 @@
+{
+    "by_error": {},
+    "by_level": {
+        "CRITICAL": 0,
+        "DEBUG": 0,
+        "ERROR": 0,
+        "INFO": 3620000,
+        "WARNING": 0
+    },
+    "by_source": {
+        "api": 3620000
+    },
+    "mn": "2026-11-10T10:00:00+03:00",
+    "mx": "2026-11-10T10:00:00+03:00",
+    "skipped_invalid": 0,
+    "top_5": [],
+    "total_events": 3620000
+}
